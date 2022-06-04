@@ -120,10 +120,6 @@ blockquote {
 }
 
 /* Content Styling */
-.header .padding {
-    padding: 0 0;
-}
-
 .header {
     background-color: #84a98c;
 }
@@ -143,6 +139,10 @@ blockquote {
 
 .footer {
     background-color: #cad2c5;
+}
+
+.footer .wrapper.padding .p {
+    line-height: 45px;
 }
 
 /* Menu Settings */
