@@ -143,6 +143,7 @@ blockquote {
 
 .footer .wrapper p {
     line-height: 45px;
+    padding: 0;
 }
 
 /* Menu Settings */
