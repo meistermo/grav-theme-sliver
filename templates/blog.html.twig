@@ -5,7 +5,6 @@
 {% block content %}
     {{ page.content|raw }}
     
-    <h2>Artikel-Timeline:</h2>
         {% for child in collection %}
                 {% include 'partials/article_preview.html.twig' with {'blog':page, 'page':child, 'truncate':true} %}      
         {% endfor %}    
