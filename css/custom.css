@@ -216,7 +216,6 @@ blockquote {
     padding-right: 30px;
 }
 .main-nav .has-children > a:after {
-    font-family: FontAwesome;
     content: '\f107';
     position: absolute;
     display: inline-block;
