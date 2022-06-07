@@ -126,6 +126,7 @@ blockquote {
 }
 
 .header a {
+    line-height: 45px;
     color: #fff;
 }
 
@@ -167,7 +168,6 @@ div.article-preview {
 .main-nav ul li a {
     position: relative;
     display: block;
-    line-height: 45px;
     color: #333333;
     padding: 0 20px;
     white-space: nowrap;
