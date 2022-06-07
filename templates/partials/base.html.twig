@@ -34,10 +34,10 @@
     <div class="header">
         <div class="wrapper">
             
-            <a class="logo left" href="{{ home_url|e }}">
+            <a class="logo" href="{{ home_url|e }}">
                 {{ config.site.title|e }}
             </a>
-            
+
             {% block header_navigation %}
             <nav class="main-nav">
                 {% include 'partials/navigation.html.twig' %}
