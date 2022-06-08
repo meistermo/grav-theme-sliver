@@ -35,10 +35,7 @@
         <div class="wrapper">
             
             <a class="logo" href="{{ home_url|e }}">
-                {{ config.site.title.name|e }}
-                <b class="accent">
-                    {{ config.site.title.accent|e }}            
-                </b>
+                {{ config.site.title.name|e }}<b class="accent">{{ config.site.title.accent|e }}</b>
             </a>
 
             {% block header_navigation %}
