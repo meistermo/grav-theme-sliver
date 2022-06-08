@@ -125,11 +125,14 @@ blockquote {
     background-color: #84a98c;
 }
 
+.header a {
+    line-height: 45px;
+}
+
 .header a.logo {
     font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 1.7rem;
-    line-height: 45px;
 
     color: #333333;
 }
