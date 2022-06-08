@@ -125,15 +125,17 @@ blockquote {
     background-color: #84a98c;
 }
 
-.header a {
-    line-height: 45px;
-    color: #333333;
-}
-
-.header .logo {
+.header a.logo {
     font-family: 'Roboto Slab';
     font-weight: bold;
     font-size: 1.7rem;
+    line-height: 45px;
+    
+    color: #333333;
+}
+
+.header a.logo.accent {
+    color: #ebebeb;
 }
 
 div.article-preview {
