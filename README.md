@@ -5,3 +5,4 @@ The **Sliver** Theme is for [Grav CMS](http://github.com/getgrav/grav).  This RE
 ## Description
 
 Fast, Simple &amp; Readable
+..
