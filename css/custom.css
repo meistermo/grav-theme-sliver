@@ -138,7 +138,8 @@ blockquote {
 }
 
 .header a.logo b.accent {
-    color: #bf211e;
+    /* color: #bf211e; */
+    color: #ebebeb;
 }
 
 div.article-preview {
