@@ -161,10 +161,6 @@ div.article-preview {
     padding: 1rem;
 }
 
-div.article-preview a {
-    color: var(--color-jet);
-}
-
 div.article-preview h3,
 div.article-preview p {
     margin: 0;
@@ -172,6 +168,10 @@ div.article-preview p {
 
 div.article-preview h3 {
     display: inline-block;
+}
+
+div.article-preview a {
+    color: var(--color-jet);
 }
 
 .footer {
