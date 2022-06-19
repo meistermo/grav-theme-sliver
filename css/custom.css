@@ -146,6 +146,14 @@ div.article-preview {
     background-color: #cad2c5;
 }
 
+div.article-preview h3,
+div.article-preview p {
+    margin: 0;
+    padding-left: 12px;
+
+}
+
+
 .footer {
     background-color: #cad2c5;
 }
