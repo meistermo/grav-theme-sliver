@@ -163,7 +163,7 @@ div.article-preview {
 
 div.article-preview h3,
 div.article-preview p {
-    display: inline-block;
+    display: inline;
     margin: 0;
 }
 
