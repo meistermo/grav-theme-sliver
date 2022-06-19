@@ -1,6 +1,6 @@
 <div class="article-preview">
     <h3><a href="{{ page.url|e }}">{{ page.title|e }}</a></h3>
-    <span>01.01.1970</span><br>
+    <span>{{ page.header.date|e }}</span><br>
 
     <p>{% if page.header.teaser %} {{ page.header.teaser|raw }} {% else %} {{page.content|raw }} {% endif %}</p>
     <span><a href="{{ page.url|e }}"> Read more...</a></span>
