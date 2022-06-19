@@ -167,7 +167,7 @@ div.article-preview p {
     margin: 0;
 }
 
-div.article-preview a {
+div.article-preview h3 a {
     color: var(--color-jet);
 }
 
