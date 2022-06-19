@@ -145,12 +145,12 @@ blockquote {
 div.article-preview {
     background-color: #cad2c5;
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 
-div.article-preview h3,
+div.article-preview,
 div.article-preview p {
     margin: 0;
-    padding-left: 1rem;
 }
 
 .footer {
