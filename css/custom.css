@@ -1,3 +1,16 @@
+/* Colors #
+ * Sliver strictly adheres to a five-color palette.
+ * Alternative color schemes are available.
+ */
+
+:root {
+    --color-burnt-sienna: #de6b48;
+    --color-jet: #333333;
+    --color-platinum: #ebebeb;
+    --color-ash-gray: #cad2c5;
+    --color-dark-sea-green: #84a98c;
+}
+
 /* Fonts #
  * Sliver uses three different fonts to render text to the page.
  * These include: Roboto Slab, Ubuntu and Ubuntu Mono.
@@ -48,12 +61,12 @@ body {
     font-family: 'Ubuntu';
     font-size: 1rem;
     line-height: 1.7;
-    color: #333333;
+    color: var(--color-jet);
     background-color: #ebebeb;
 }
 
 h1 {
-    color: #333333;
+    color: var(--color-jet);
     font-family: 'Roboto Slab';
 }
 
@@ -62,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #333333;
+    color: var(--color-jet);
     font-family: 'Ubuntu';
 }
 
@@ -86,7 +99,7 @@ pre {
 }
 
 blockquote {
-    border-left: 10px solid #CAD2C5;
+    border-left: 10px solid var(--color-ash-gray);
     margin: 0;
     padding: 0 2rem;
 }
@@ -122,7 +135,7 @@ blockquote {
 
 /* Content Styling */
 .header {
-    background-color: #84a98c;
+    background-color: var(--color-dark-sea-green);
 }
 
 .header a {
@@ -134,22 +147,22 @@ blockquote {
     font-weight: bold;
     font-size: 1.7rem;
 
-    color: #333333;
+    color: var(--color-jet);
 }
 
 .header a.logo b.accent {
     /* color: #bf211e; */
-    color: #ebebeb;
+    color: var(--color-platinum);
 }
 
 div.article-preview {
-    background-color: #cad2c5;
+    background-color: var(--color-ash-gray);
     margin-bottom: 1rem;
     padding: 1rem;
 }
 
 div.article-preview a {
-    color: #333333;
+    color: var(--color-jet);
 }
 
 div.article-preview h3,
@@ -158,7 +171,7 @@ div.article-preview p {
 }
 
 .footer {
-    background-color: #cad2c5;
+    background-color: var(--color-ash-gray);
 }
 
 .footer .wrapper p {
@@ -183,7 +196,7 @@ div.article-preview p {
 .main-nav ul li a {
     position: relative;
     display: block;
-    color: #333333;
+    color: var(--color-jet);
     padding: 0 20px;
     white-space: nowrap;
 }
@@ -193,13 +206,13 @@ div.article-preview p {
 
 /*Active dropdown nav item */
 .main-nav ul li:hover > a {
-    background-color: #cad2c5;
+    background-color: var(--color-ash-gray);
 }
 
 /* Selected Dropdown nav item */
 .main-nav ul li.selected > a {
-    background-color: #ebebeb;
-    color: #333333;
+    background-color: var(--color-platinum);
+    color: var(--color-jet);
 }
 
 /* Dropdown CSS */
