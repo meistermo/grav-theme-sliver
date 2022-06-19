@@ -1,7 +1,7 @@
 <div class="article-preview">
     <h3><a href="{{ page.url|e }}">{{ page.title|e }}</a></h3>
     <span>01.01.1970</span><br>
-    
-    <p>This will be the short teaser.</p>
+
+    <p>{{ page.content|raw }}</p>
     <span><a href="{{ page.url|e }}"> Read more...</a></span>
 </div>
