@@ -162,6 +162,7 @@ div.article-preview {
 }
 
 div.article-preview a {
+    display: inline-block;
     color: var(--color-jet);
 }
 
