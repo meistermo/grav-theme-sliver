@@ -148,7 +148,7 @@ div.article-preview {
     padding: 1rem;
 }
 
-div.article-preview,
+div.article-preview h3,
 div.article-preview p {
     margin: 0;
 }
