@@ -156,7 +156,7 @@ blockquote {
 }
 
 div.article-preview {
-    background-color: var(--color-ash-gray);
+    /* background-color: var(--color-ash-gray); */
     margin-bottom: 1rem;
     padding: 1rem;
 }
